@@ -8,5 +8,5 @@ mkdir test_directory
 if [ -d "test_directory" ]; then
      echo "Le répertoire test_directory a été créé avec succès."
 else
-    echo "Erreur : impossible de créer le répertoire test_directory."
+     echo "Erreur : impossible de créer le répertoire test_directory."
 fi
