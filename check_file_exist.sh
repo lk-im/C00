@@ -8,5 +8,5 @@ read -p "Entrez le chemin du fichier à vérifier : " filepath
 if [ -e "$filepath" ]; then
      echo "Le fichier $filepath existe."
 else
-    echo "Le fichier $filepath n'existe pas."
+     echo "Le fichier $filepath n'existe pas."
 fi
