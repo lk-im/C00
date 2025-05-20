@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Vérification de l'existence d'un fichier"
-echo "---------------------------------------"
-
 # Demander le nom du fichier à vérifier
 echo "Entrez le chemin du fichier à vérifier : " 
 read filename
