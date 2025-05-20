@@ -1,12 +1,15 @@
 #!/bin/bash
-# ce script permet de vérifier si un fichier donné existe ou non.
 
-# cette commande permet de demander le chemin du fichier à vérifier.
-read -p "Entrez le chemin du fichier à vérifier : " filepath
+echo "Vérification de l'existence d'un fichier"
+echo "---------------------------------------"
 
-# cette instruction vérifie si le fichier existe ou non
-if [ -e "$filepath" ]; then
-     echo "Le fichier $filepath existe."
+# Demander le nom du fichier à vérifier
+echo "Entrez le chemin du fichier à vérifier : " 
+read filename
+
+# Vérifier si le fichier existe
+if [ -f "$filename" ]; then
+    echo "Le fichier '$filename' existe."
 else
-    echo "Le fichier $filepath n'existe pas."
+    echo "Le fichier '$filename' n'existe pas."
 fi
